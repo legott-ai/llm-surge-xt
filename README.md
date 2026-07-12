@@ -1,6 +1,6 @@
 # DeepSynth for Surge XT
 
-DeepSynth is a GPL-3.0-or-later fork of [Surge XT](https://surge-synthesizer.github.io/)
+DeepSynth For Surge XT is a GPL-3.0-or-later fork of [Surge XT](https://surge-synthesizer.github.io/)
 that adds an in-app, natural-language patch designer. Describe the sound you
 want in English or Korean and DeepSynth translates it into Surge XT parameter
 changes for the currently loaded patch.
