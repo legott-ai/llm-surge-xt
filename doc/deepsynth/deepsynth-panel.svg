@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1e26"/>
+      <stop offset="1" stop-color="#141720"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="520" fill="#0d0f14"/>
+
+  <!-- Illustration caption -->
+  <text x="24" y="30" fill="#9aa4b2" font-size="13">DeepSynth panel (UI illustration — reflects the actual JUCE layout)</text>
+
+  <!-- Panel body -->
+  <rect x="24" y="48" width="712" height="452" rx="8" fill="url(#bg)" stroke="#2b2f3a" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="44" y="86" fill="#f0c040" font-size="18" font-weight="bold">DeepSynth (Claude Sonnet 5)</text>
+  <rect x="700" y="66" width="20" height="20" rx="3" fill="#22262f" stroke="#3a3f4b"/>
+  <text x="706" y="81" fill="#c8ccd4" font-size="13">×</text>
+
+  <!-- Model selector -->
+  <text x="44" y="118" fill="#7f8794" font-size="11">MODEL</text>
+  <rect x="44" y="124" width="672" height="30" rx="5" fill="#22262f" stroke="#3a3f4b"/>
+  <text x="56" y="144" fill="#e6e9ee" font-size="13">Claude Sonnet 5</text>
+  <text x="700" y="144" fill="#8a92a0" font-size="12">▾</text>
+
+  <!-- Expanded dropdown -->
+  <rect x="44" y="156" width="360" height="232" rx="6" fill="#1c2028" stroke="#3a3f4b"/>
+  <g font-size="12.5">
+    <text x="60" y="180" fill="#8a92a0">Gemini 3 Pro</text>
+    <text x="60" y="206" fill="#8a92a0">Gemini 3 Flash</text>
+    <text x="60" y="232" fill="#8a92a0">Gemini 2.5 Flash</text>
+    <rect x="50" y="242" width="348" height="26" rx="4" fill="#2d3444"/>
+    <text x="60" y="259" fill="#f0c040">Claude Opus 4.8</text>
+    <rect x="50" y="270" width="348" height="26" rx="4" fill="#243049"/>
+    <text x="60" y="287" fill="#e6e9ee">Claude Sonnet 5  ✓</text>
+    <text x="60" y="313" fill="#8a92a0">Claude Haiku 4.5</text>
+    <text x="60" y="339" fill="#8a92a0">GPT-5</text>
+    <text x="60" y="365" fill="#8a92a0">GPT-5o</text>
+  </g>
+
+  <!-- Prompt editor -->
+  <rect x="420" y="164" width="296" height="96" rx="5" fill="#22262f" stroke="#3a3f4b"/>
+  <text x="432" y="186" fill="#cfd4dc" font-size="12.5">warm analog pad, slow attack,</text>
+  <text x="432" y="206" fill="#cfd4dc" font-size="12.5">lush reverb, gentle movement</text>
+
+  <!-- Buttons -->
+  <rect x="420" y="272" width="144" height="30" rx="5" fill="#2f6f4f"/>
+  <text x="462" y="292" fill="#eafff2" font-size="13">Generate</text>
+  <rect x="572" y="272" width="144" height="30" rx="5" fill="#3a4256"/>
+  <text x="618" y="292" fill="#e6e9ee" font-size="13">Modify</text>
+
+  <!-- Response display -->
+  <rect x="420" y="316" width="296" height="140" rx="5" fill="#12151c" stroke="#2b2f3a"/>
+  <text x="432" y="338" fill="#8a92a0" font-size="11">RESPONSE — applied 22 changes</text>
+  <g font-size="11.5" fill="#9fd8b0" font-family="Menlo, monospace">
+    <text x="432" y="360">- osc1_type: 2</text>
+    <text x="432" y="378">- filter1_cutoff: 0.38</text>
+    <text x="432" y="396">- amp_attack: 0.62</text>
+    <text x="432" y="414">- fx_send1_mix: 0.45</text>
+    <text x="432" y="432">- volume: 0.80</text>
+  </g>
+
+  <!-- Footer: settings + status -->
+  <rect x="44" y="400" width="90" height="26" rx="5" fill="#22262f" stroke="#3a3f4b"/>
+  <text x="60" y="417" fill="#c8ccd4" font-size="12">Settings</text>
+  <text x="44" y="452" fill="#7f8794" font-size="11">Ready</text>
+</svg>
