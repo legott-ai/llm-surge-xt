@@ -56,7 +56,7 @@ On macOS, launch the resulting standalone application with:
 open "build/surge_xt_products/Surge XT.app"
 ```
 
-DeepSynth requires a C++17 compiler and CMake 3.15 or later. If a current
+DeepSynth for Surge XT requires a C++17 compiler and CMake 3.15 or later. If a current
 Xcode/clang toolchain stops in bundled DSP code because of `-Werror`, configure
 with Surge XT's supported escape hatch:
 
@@ -80,4 +80,4 @@ session; logging is disabled by default.
 
 ## License
 
-DeepSynth and Surge XT are distributed under [GPL-3.0-or-later](LICENSE).
+DeepSynth for Surge XT are distributed under [GPL-3.0-or-later](LICENSE).
