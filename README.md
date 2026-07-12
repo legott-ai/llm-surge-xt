@@ -9,6 +9,8 @@ This project is a derivative work of Surge XT. It is not affiliated with or
 endorsed by the Surge Synth Team, Anthropic, Google, or OpenAI. Original Surge
 XT source files retain their upstream copyright headers.
 
+<img width="2048" height="1477" alt="image" src="https://github.com/user-attachments/assets/514189c3-891d-463b-bdb5-8e2a1ab104d9" />
+
 ## Features
 
 - Generate a new patch or modify the current patch from a text description.
